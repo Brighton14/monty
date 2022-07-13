@@ -1,9 +1,10 @@
 #ifndef MONTY_H
 #define MONTY_H
+#define _GNU_SOURCE
 
 #include <stddef.h>
 #include <stdlib.h>
-
+#include <ctype.h>
 #define INSTRUCTIONS              \
 	{                           \
 		{"push", push},       \
